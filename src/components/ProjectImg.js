@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ProjectImg.css";
 import ProjImg from "../assest/pro2.jpg"
+import Work from './Work';
 
 const ProjectImg = () => {
   return (
@@ -11,6 +12,7 @@ const ProjectImg = () => {
         <div className='heading'>
             <h1>Projects</h1>
             <p>Some of my works example</p>
+            
         </div>
        
 

@@ -1,20 +1,20 @@
 import { NavLink } from "react-router-dom";
 import "./ProjectCard.css";
-import City from "../assest/advcity.jpg"
+
 
 import React from 'react'
 
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
     
             <div className="project-card">
-                <img src={City} alt="image"/>
-                <h2 className="project-title">Project Title</h2>
+                <img src={props.imgsrc} alt="image"/>
+                <h2 className="project-title">{props.title}</h2>
                 <div className="pro-details">
-                    <p>Details of projects</p>
+                    <p>{props.text}</p>
                 <div className="pro-button">
-                    <NavLink to='url.com' className="btn"> View</NavLink>
+                    <NavLink to={props.view} className="btn"> View</NavLink>
                     <NavLink to='url.com' className="btn"> Source</NavLink>
 
                 </div>
