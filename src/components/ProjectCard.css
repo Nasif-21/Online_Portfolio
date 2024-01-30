@@ -2,7 +2,18 @@
 .project-heading
 {
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    padding: 1rem 0 2rem 0;
+}
+
+.project-heading:hover
+{
+    color: aqua;
+}
+
+.project-title
+{
+    text-align: center;
+    padding: 0.5rem 0 2rem 0;
 }
 
 .project-container
@@ -28,7 +39,8 @@
 
 .project-card:hover
 {
-    background-color: #141414; 
+    background-color: #948d8d;
+     
 }
 .project-card img
 {
@@ -37,16 +49,18 @@
 
 .pro-details p
 {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
     text-align: justify;
 
 
 }
 
+
+
 .pro-button{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5rem 0;
 }
 
