@@ -49,7 +49,7 @@
  .Project-imgCom .heading p
  {
     font-size: 1.2rem;
-    font-weight: 150;
+    font-weight: 100;
  }
 
  @media screen and (max-width:640px) {

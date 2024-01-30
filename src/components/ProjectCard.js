@@ -7,11 +7,7 @@ import React from 'react'
 
 const ProjectCard = () => {
   return (
-    <div className="work-container">
-        <h1 className="project-heading"> Projects </h1>
-        
-        <div className="project-container">
-        
+    
             <div className="project-card">
                 <img src={City} alt="image"/>
                 <h2 className="project-title">Project Title</h2>
@@ -25,13 +21,13 @@ const ProjectCard = () => {
                 </div>
                 
             </div>
-        </div>
+        
         
        
     
         
 
-    </div>
+    
   )
 }
 
